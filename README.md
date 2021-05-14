@@ -49,6 +49,7 @@ User::$withoutAppends=true; // User -> your user mmodel
 Note: If your model extends a custom class, you need to ensure that
 your extended class has `Concerns\HasAttributes` trait.Otherwise this package doesn't work since 
 it uses `Concerns\HasAttributes::getArrayableAppends` method
+
 ---
 
 ## Testing
