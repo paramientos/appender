@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Soysaltan\Appender\Tests;
 
 class ExampleTest extends TestCase
 {
