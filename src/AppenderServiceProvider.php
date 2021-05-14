@@ -2,7 +2,6 @@
 
 namespace Soysaltan\Appender;
 
-use Soysaltan\Appender\Commands\AppenderCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
