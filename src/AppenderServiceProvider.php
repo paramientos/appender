@@ -10,7 +10,6 @@ class AppenderServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-
         $package
             ->name('appender')
             ->hasConfigFile()

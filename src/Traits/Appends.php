@@ -4,7 +4,6 @@ namespace Soysaltan\Appender\Traits;
 
 trait Appends
 {
-
     public static bool $withoutAppends = false;
 
     protected function getArrayableAppends()
@@ -12,6 +11,7 @@ trait Appends
         if (self::$withoutAppends) {
             return [];
         }
+
         return parent::getArrayableAppends();
     }
 }
