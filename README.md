@@ -25,7 +25,7 @@ class User extends Model
 
 ## Installation
 
-You can install the package via composer:
+You can install the package via composer for Laravel 5.6+:
 
 ```bash
 composer require soysaltan/appender

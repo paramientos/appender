@@ -1,6 +1,6 @@
 {
     "name": "soysaltan/appender",
-    "description": "This is my package Appender",
+    "description": "Take your appends control in Laravel 5.6+",
     "keywords": [
         "soysaltan",
         "laravel",
