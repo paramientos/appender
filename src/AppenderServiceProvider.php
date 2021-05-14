@@ -7,7 +7,7 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class AppenderServiceProvider extends PackageServiceProvider
 {
-    public function configurePackage(Package $package): void
+    public function configurePackage(Package $package)
     {
         $package
             ->name('appender');
