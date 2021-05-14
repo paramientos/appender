@@ -4,7 +4,7 @@ namespace Soysaltan\Appender\Traits;
 
 trait Appends
 {
-    public static bool $withoutAppends = false;
+    public static $withoutAppends = false;
 
     protected function getArrayableAppends()
     {

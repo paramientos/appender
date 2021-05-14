@@ -2,14 +2,21 @@
 
 namespace Soysaltan\Appender;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-class AppenderServiceProvider extends PackageServiceProvider
+class Provider extends ServiceProvider
 {
-    public function configurePackage(Package $package)
+    const VERSION = '1.0.0';
+
+    protected $defer = true;
+
+    public function boot()
     {
-        $package
-            ->name('appender');
+        //
+    }
+
+    public function register()
+    {
+        $this->app->register("\Soysaltan\Appender\Provider");
     }
 }
