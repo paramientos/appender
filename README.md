@@ -41,6 +41,10 @@ class User extends Model
     protected $appends = ['created_at_by_human', 'created_at_formatted'];
 ```
 
+If you want to get your model without appends, just drop this line
+```php
+User::$withoutAppends=true; // User -> your user mmodel
+```
 ---
 
 ## Testing
